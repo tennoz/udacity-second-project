@@ -1,0 +1,97 @@
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+
+/* header */
+
+header {
+    padding-bottom: 50px;
+}
+
+header .navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* first section */
+
+.title {
+    padding-top: 20px;
+    text-align: right;
+    color: #2d3c49;
+}
+
+.title h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.title h5 {
+    font-family: 'Ubutnu', sans-serif;
+}
+
+.title hr {
+    border: 2px solid #7d97ad;
+}
+
+.title img {
+    width: 100%;
+    height: 450px;
+}
+
+
+/* Featured Work */
+
+.featuredWork {
+    padding-top: 30px;
+}
+
+.featuredWork img {
+    width: 100%;
+    height: 200px;
+    padding-bottom: 20px;
+    transition: 1s;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+
+.featuredWork img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.featuredWork h1 {
+    color: #7d97ad;
+}
+
+.featuredWork h2,
+p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .featuredWork img {
+        height: auto;
+    }
+}
+
+
+/* footer */
+
+footer {
+    background: #2d3c49;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer p {
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
