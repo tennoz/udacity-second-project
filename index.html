@@ -13,6 +13,8 @@
 
     <!-- regular styling -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome -->
+    <script src="https://use.fontawesome.com/f9e92ea292.js"></script>
     <title>Portfolio</title>
 </head>
 
@@ -43,41 +45,75 @@
     <!-- end of header -->
     <!-- first container -->
     <section class="container title">
-        <h1>Ahmad Hasan</h1>
-        <h5>Front-end developer</h5>
-        <hr>
-        <img src="imgs/header.jpg" class="img-fluid" alt="">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h1>Ahmad Hasan</h1>
+                <h5>Front-end developer</h5>
+                <hr>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <picture>
+                    <source media="(max-width: 20em)" srcset="imgs/headermedium.jpg" alt="header Image" class="img-fluid">
+                    <source media="(max-width: 40em)" srcset="imgs/headerlarge.jpg" alt="header Image" class="img-fluid">
+                    <img src="imgs/headersmall.jpg" alt="header Image" class="img-fluid">
+                </picture>
+            </div>
+        </div>
     </section>
     <!-- end of first contianer -->
     <!-- featured work -->
-    <section id="gallery" class="container featuredWork">
-        <h1>Featured Work</h1>
-        <!-- grid system -->
+    <section id="gallery" class="container featured-work">
         <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h1>Featured Work</h1>
+            </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <img src="imgs/1.jpg" alt="black flower" class="img-fluid">
+                <picture>
+                    <source media="(max-width: 20em)" srcset="imgs/1.jpg" alt="header Image" class="img-fluid">
+                    <img src="imgs/1-small.jpg" alt="butterfly" class="img-fluid">
+                </picture>
                 <h2>BUtterfly</h2>
                 <p>This is a dummy text describing a dummy project</p>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <img src="imgs/2.jpg" alt="the matrix" class="img-fluid">
+                <picture>
+                    <source media="(max-width: 20em)" srcset="imgs/2.jpg" alt="header Image" class="img-fluid">
+                    <img src="imgs/2-small.jpg" alt="The matrix" class="img-fluid">
+                </picture>
                 <h2>The Matrix</h2>
                 <p>This is a dummy text describing a dummy project</p>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <img src="imgs/3.jpg" alt="darksiders" class="img-fluid">
+                <picture>
+                    <source media="(max-width: 20em)" srcset="imgs/3.jpg" alt="header Image" class="img-fluid">
+                    <img src="imgs/3-small.jpg" alt="darksiders" class="img-fluid">
+                </picture>
                 <h2>Darksiders</h2>
                 <p>This is a dummy text describing a dummy project</p>
             </div>
         </div>
-        <!-- end of grid system -->
+        <!-- footer -->
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <footer>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                            <div class="contact-icons">
+                                <a href="https://www.github.com/tennoz"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/in/ahmadhmoustafa/"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                            <p>All rights reserved</p>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <!-- end of footer -->
     </section>
     <!-- end of featured work -->
-    <!-- footer -->
-    <footer>
-        <p>All rights reserved</p>
-    </footer>
-    <!-- end of footer -->
+
     <!-- scripts -->
     <script src="js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
